@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_lithium.mk
+    $(LOCAL_DIR)/aosp_lithium.mk
