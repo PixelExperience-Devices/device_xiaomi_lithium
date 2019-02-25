@@ -19,4 +19,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.qfp=false \
     ro.hardware.fingerprint=fpc \
     sys.fpc.tu.disabled=0 \
+    ro.sf.lcd_density=360 \
     qemu.hw.mainkeys=0 

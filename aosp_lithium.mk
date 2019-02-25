@@ -1,7 +1,7 @@
 $(call inherit-product, device/xiaomi/lithium/full_lithium.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_DENSITY := xxhdpi
