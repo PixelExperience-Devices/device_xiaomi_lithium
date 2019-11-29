@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "device_xiaomi_msm8996-common",
+    "repository":  "Inkypen79/android_device_xiaomi_msm8996-common",
     "target_path": "device/xiaomi/msm8996-common",
     "branch":      "staging/ten"
   }
