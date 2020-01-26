@@ -22,11 +22,7 @@ $(call inherit-product, vendor/xiaomi/lithium/lithium-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
+    $(LOCAL_PATH)/overlay
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -35,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GCam
 
 # Device init scripts
 PRODUCT_PACKAGES += \
