@@ -56,7 +56,8 @@ PRODUCT_COPY_FILES += \
 # TFA calibration
 PRODUCT_PACKAGES += \
     init.tfa.sh \
-    tinyplay
+    tinyplay \
+    init.recovery.qcom.rc
 
 # Thermal
 PRODUCT_COPY_FILES += \
